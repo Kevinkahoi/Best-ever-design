@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Best Ever collection</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+    <link href="dist/jquery.bsPhotoGallery-min.css" rel="stylesheet">
+    <script src="dist/jquery.bsPhotoGallery-min.js"></script>	
+	
+    </script>
+    <script>
+      $(document).ready(function(){
+        $('ul.first').bsPhotoGallery({
+          "classes" : "col-xl-3 col-lg-2 col-md-4 col-sm-4",
+          "hasModal" : true,
+          "shortText" : false  
+        });
+      });
+    </script>
+  </head>
+  <style>
+      @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+      body {
+        background:white;
+        font-family:arial;
+        font-size:14px
+      }  
+
+/* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 400px;
+  }      
+  </style>
+  <body>
+ 
+        <div >
+            <nav class="navbar navbar-expand-lg navbar-light"   style="background-color: #e3f2fd;" >
+  <!-- Brand -->
+ 
+ <a class="navbar-brand" href="#">
+ <img src="https://lh3.googleusercontent.com/wAoLBXyFmEdJ0L_259J6zJKN97GVq0LiPGvHYRA9WSk1XMHDeZ6ALO_D3KKLSVtsv41yaFRMZp9i6x3o752P4exOagy-IWOL4oAj4mzzXEvgne7fd0d1oL7JPrDUXFoyChc8iW_zIVwVlG7EH8KKhRcioaE9Or-qXPdGAaQ5IAlk3Li8KwGEtSBfysXZelEWVBI-mIeJ2f__yv2frvjF2x8QfDW25X-lh9HRl2qb5UZOY-E1xLzE6pYriV5tU0Pto2zF3uRLtTOYwpuFCHRliaifjRieTndY5-4PXiOyAtDAFQispSS6psJ0ltTtKoIxUtM3HaKw3EDmFVjWbJB8fqXz_PVYCElTm8KJTtrbY0lmcxeeNRhpH8K8azq6zyAi8I7csQwqQLitTZm9w1Ym-ELcjb2tiY_gYxVV-Vn9HzNAunkSMBRSdxJGgndtBPwh004zZxRnG3uzhzkuOUyKWQonffH0u08O9cjJlIM2EACWKCVbkb77648DFrQOH4T1kYDVBWtxBE4UpK-lRrSt7mS_Bo_zUcBf4WJDuNAgmlvSIg-ZMm12JJa_OWMaoeQuowvw4UaIOBKpvUTvjTyAYhZzxAi5sU7eWbLzEowjjWqDVw6UxOEx-UkumuLm2ocFJu4L0COitkK0nioT-9ZcHT-z=w167-h194-no" alt="Logo" style="width:80px; height:50px;">
+  </a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- Links -->
+  
+  <div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">Sign in</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">Sign up</a>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Catgories
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Jeans</a>
+        <a class="dropdown-item" href="#">Khaki</a>
+        <a class="dropdown-item" href="#">T-shirt</a>
+        <a class="dropdown-item" href="#">Jackets</a>
+        <a class="dropdown-item" href="#">Customised Items</a>
+      </div>
+    </li>
+    
+     <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+  </ul>
+</nav> 
+</div>
+<div id="products" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#products" data-slide-to="0" class="active"></li>
+    <li data-target="#products" data-slide-to="1"></li>
+    <li data-target="#products" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.pexels.com/photos/404159/pexels-photo-404159.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Los Angeles" width:100% >
+      <div class="carousel-caption">
+        <h3>All products</h3>
+        <p>Get Awesome products @ best ever</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/16170/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" alt="Chicago" width:100% >
+      <div class="carousel-caption">
+        <h3>Best offers this xmas</h3>
+        <p>You are welcome...just order</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1527016021513-b09758b777bd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f0ff89d00bb062148746339baf2bfc79&auto=format&fit=crop&w=400&q=60" alt="New York" width:100% >
+      <div class="carousel-caption">
+        <h3>Best Ever!!</h3>
+        <p>Everything u like</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#products" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#products" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+        </div>
+        <br>
+   <div class="container">
+        <ul class="row first">
+            <li>
+              1  <img alt="Rocking the night away"  src="https://lh3.googleusercontent.com/4I1Lo779gQN0DBLwmCT_txz-I3-MPWU10zp1DQwQdNQugCQS6UwacQ2xmwHbpeP1tEbdpwgD3M-Tjluf9KqwCeRuRXFB1p0USRwgm0InNYKBQ9VDCygMVFDrLuhf-NA6kJmIMHRZPM3Si6tcPmh8NSGWYS4MQ-dqdg7s3iscma5C-V1RVWhkY-eC10WBuO_URgoyLMp5PRZDHF3UuTZjbrORgt84qMzXZ3rxtR9HlrLc3dCSXtR3N72KkJzVfdPRx5GDRO4ttwkuk8geaPm57CiYkHgBZDL4ZLJq5r6Pxf-ZlArMmW-rmIA5PlfiRkKFIBtvWdPmjLfM-8tMn3G4ueyelTYcoPDnpQRXiFnVU3Wc2pdwj8rNKwdCEbePrfBZOpyha8mDx2oC0aKCUfDmpSBtvDg4g2diOV9Lh0GOVG6JMKBFcpD97Dxpp4_ZAxmUYE0ZwDZo24uOOD0-EgC9c6OWpVnzET2gydfzuuT-_EVcLKFdtgALIypfgV9e1Hua_Mz_wpyoXRD943VyYLhv9dWx1aV-_6IilaHRn4HYvEvkBHp7S6oOkoJAfJSlI1A=s288-w106-h124-p-k-no">
+                <p>BEST  EVER COLLECTION
+                 All you need we got it!!!</p>
+            </li>
+            <li>
+                2 <img alt="custom t-shirt"  src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/p200x200/40049168_1975333512533522_284979515405369344_n.jpg?_nc_cat=104&_nc_eui2=AeHG3OPcbjQ_h1-9wpPRivUAEKEol6e5n9nNEq-SxBACWbV9N0-YriQKWNxtotB3yope-fs3-1FmA80GxPR8qCj-XLfpKK4dQi8puBS-xghtTg&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=42409344734d7a690e024930862721d1&oe=5C8DDBEB">
+                <p>Custom T-shirt 
+               <b>Price:</b> 1000ksh
+                wholesale(100 and above pieces) @500ksh</p>
+            </li>
+            <li>
+               3 <img alt="Colors"  src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c33.0.200.200a/p200x200/39957046_1975333805866826_4159203315348930560_n.jpg?_nc_cat=101&_nc_eui2=AeHBQAbsc4fJFHMpodt5q4ybV0MXnTV0lpq2l7h3n4dCha67PJ2C6a0_crOQlYPSO0UBvlJqIoJaxXLLqPC1iilygQuHXnjImPW6iduRjo8Vhg&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=aa1e34142e5e548f6db80244148f3758&oe=5C94BF7E">
+                <p>Custom T-shirt 
+               <b>Price:</b> 1000ksh
+                wholesale(100 and above pieces) @500ksh</p>
+            </li>
+            <li>
+               4 <img alt="Retro party"  src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c0.22.200.200a/p200x200/28058622_1731913470208862_1248728891045976666_n.jpg?_nc_cat=100&_nc_eui2=AeFUJClGHq-Haxas51CczIPZCG_3H6x_D8UKaoh9-vR9X7qUXxJNm8JOCWeP4c2yvkZj_DMEdwYfDn_CFWh05FO3FD7u6YEAUAY96krdSk_YZQ&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=bd8e07a8149e5da420b96d398d373aeb&oe=5C8E23C2">
+                <p>Get awesome men's  khaki <br>
+                  order now!!!all colors available</p>
+            </li>
+            <li>
+                5<img alt="Technology soup"  src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c0.22.200.200a/p200x200/23843138_1637984972935046_470132846548179836_n.jpg?_nc_cat=100&_nc_eui2=AeGje6FeiMhfIAYsgfxUK4S_YS-lCBQxLgS3UClPc8KOBijEhWGKN8ZpR1CftqWgnKf_Fo3t1H6PBZ8nGwjhaq0QV-UGZaV9yJWIto7olxNZ9g&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=905f445725a158bfd965d23910697de6&oe=5C9BE1FA">
+                <p> T-shirt long sleeve 
+               <b>Price:</b> 1000ksh
+                </p>
+            </li>
+            <li>
+                6<img alt="Legal docs"  src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c0.22.200.200a/p200x200/28576694_1745358828864326_2788934009037564375_n.jpg?_nc_cat=110&_nc_eui2=AeEvZZ8HZ5P0dJDMdYz3c14wBx7WlHyuu6J2XN-OXOQx15P69YwXebX7bFTKBPLrhNeCwJ02bJYsSqvMC0a2gH__yNIbVraLMNsfsEtLcjIqnQ&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=c51edb3cb8c9fc022325dc3fd2834807&oe=5CCADA20" data-bsp-large-src="">
+                <p>Get awesome men's Zara khaki <br>
+                  order now!!!all colors available</p>
+            </li>
+            <li>
+                7<img alt="Cream khaki"  src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c0.22.200.200a/p200x200/28577840_1745198212213721_7741398719743039755_n.jpg?_nc_cat=109&_nc_eui2=AeER6lhBW6ta4ZxAp1U8ZjxQlYo4nFhaWMXeZwUErooYLgG-6XAxjWbIvLJ9Xdzo0TvfcOmzjObJmyEI-RjthDpjUakArvG4P2P5wwyhLnhMow&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=f420b207e5015352b17b03795199c2a4&oe=5CD4A822">
+               <p>Get cream khaki <br>
+                  order now!!!all colors available</p>
+                  <b>Price:</b>1000ksh
+            </li>
+            <li>
+                8 <img alt="Kjumper" src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c0.22.200.200a/p200x200/28660940_1746389212094621_7681700057275372478_n.jpg?_nc_cat=107&_nc_eui2=AeEBDpPhJhCedemQDJz4XTSmLrm4guK6Lxs_1XB5ZUkSwi8nCDKAweJ25ntmhMlgrMaHDxib8UfRoktSSB809mIuUnYzQGAbcuNlFxFcDXRmKg&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=31c7ca1dc2d7f1bc52f45b6dd7ac1ebd&oe=5CD6BB3E" data-bsp-large-src="">
+                 <p>Custom jumper <br>
+                  order now!!! any design 
+                  </p>
+                  <b>Price:</b>2500ksh
+            </li>
+            <li>
+               9 <img alt="jumper" src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c33.0.200.200a/p200x200/28577207_1746389482094594_5035581332286912454_n.jpg?_nc_cat=100&_nc_eui2=AeE3m5L9ixRjbnLRkNbolynFEljeU2vcy8ecFVKorMfTSB6SoUSpPLuVAQ2S746AttQLxlMJsIX-uWnIzIc28EetHOhEOx7Ir4pavuGy0VSp3g&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=722f92d8f9eea3a72fb7d419768b540f&oe=5C8CA20D">
+                 <p>Custom jumper <br>
+                  order now!!! any couple's design 
+                  </p>
+                  <b>Price:</b>2500ksh each
+            </li>
+            <li>
+               10 <img alt="Cool colors" src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c0.51.200.200a/p200x200/31408237_1805287009538174_1652114773053014016_n.jpg?_nc_cat=108&_nc_eui2=AeFJcaZZ6D0EGVG_-oDfXSvhpM7HbYaHTjJTOgtsKZ02tS3YppVgBZpvYby3Zvxu-W8FyLIQh9zI-u0m9vMCt9yllf_XHOxJICveFxR6m14grQ&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=0ae40f965e0640fce7fa285e51c5bf20&oe=5C96DC69">
+                 <p>Blue plain Jeans <br>
+                  order now!!!black colors also 
+                  available</p>
+                  <b>Price:</b>1000ksh
+            </li>
+            <li>
+               11 <img alt="Jump over"  src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c33.0.200.200a/p200x200/28577123_1746388958761313_1762887322638674866_n.jpg?_nc_cat=107&_nc_eui2=AeET78R4oG44yfgdLirVThwNircAQf4HU0baRrjbGuFE6yjgOGH5f5cl7o4WY6IKYIYaSJoUOl04LnoodJtEjB4L5zVrW2SYHruKAuZppbT5cQ&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=9a16827476b8bb5a58e8c08ac4ed8279&oe=5C98B7DB">
+                <p>Custom Jumper <br>
+                  order now!!! any design 
+                  </p>
+                  <b>Price:</b>2500ksh each
+            </li>
+            <li>
+                12<img alt="t-shirt" src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c0.51.200.200a/p200x200/33992377_1839483639451844_4010570517462384640_n.jpg?_nc_cat=103&_nc_eui2=AeGB1mfRBaiKJU0rjm_UGob7PseT-YelujhqsEX4ru8Pb_lTo0XWCZHlMxN4HIKimcEYs9MFyoYEGKeKLiAJ_YY89EhvsJSpWAXWSRbWhVkIkA&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=2aac8becbe41817f1de6b716fb90742b&oe=5CCBB8ED">
+                <p>Brands T-shirt 
+                all brand available!!!
+               <b>Price:</b> 1000ksh
+                
+            </li>
+
+      <li>
+         13 <img alt="Khaki" src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c9.0.200.200a/p200x200/36619547_1884838761582998_3368493389409419264_n.jpg?_nc_cat=103&_nc_eui2=AeExvQwvuG4-_WGA8Id7ErC9NhfZazEK7uiL2UvhSX2e6-Zn2ZB8oeVldyV610pY9z2fio80DxvJ3YvmmA2ZS25d9XmQjnPJrZXCSIK1Bam--g&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=3039a8c8e164af32a7bc675dd4dae097&oe=5C8BA7B9">
+            <p>Get cream khaki <br>
+                  order now!!!all colors available</p>
+                  <b>Price:</b>1000ksh
+      </li>
+      <li>
+         14 <img alt="plain jeans"  src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c0.22.200.200a/p200x200/44373178_2060576857342520_9120464964039999488_n.jpg?_nc_cat=109&_nc_eui2=AeFraCtVqsgUEwedNIoZJg-7tXJN1SjufXDo6Fb0MqD0k5z-Na92L-CR1ttoGnTRoAJOtnlkQVXQqqQXRY-87znGLqIlclSZUE-W9vwWFw2l6w&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=5fa29ff59d99a53e17fd02f4dba31467&oe=5C9038CF">
+         <p>Blue plain Jeans <br>
+                  order now!!!black colors also 
+                  available</p>
+                  <b>Price:</b>1000ksh
+      </li>
+      <li>
+         15 <img alt="Street art"  src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c0.22.200.200a/p200x200/44373178_2060576857342520_9120464964039999488_n.jpg?_nc_cat=109&_nc_eui2=AeFraCtVqsgUEwedNIoZJg-7tXJN1SjufXDo6Fb0MqD0k5z-Na92L-CR1ttoGnTRoAJOtnlkQVXQqqQXRY-87znGLqIlclSZUE-W9vwWFw2l6w&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=5fa29ff59d99a53e17fd02f4dba31467&oe=5C9038CF">
+           <p>Blue plain Jeans <br>
+                  order now!!!black colors also 
+                  available</p>
+                  <b>Price:</b>1000ksh
+      </li>
+
+
+      <li>
+         16<img alt="Awesome T-shirt"  src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c69.0.200.200a/p200x200/45446721_2091273164272889_4855977444621942784_n.jpg?_nc_cat=103&_nc_eui2=AeEGdP65WBgPrAS9NMTyDi3N8mVHfdO6CqUkw6zIczDnAcmN2ZUyYyqgkuDbJD6GmAYLivDI41JVrjm0kqlb60oTs6Ysdmlihomfkj4xf51wxg&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=e6e348cc82743ab86fddc3322135e50a&oe=5C9A7EF3">
+          <p>Custom T-shirt 
+               <b>Price:</b> 1000ksh
+               All sizes!!
+      </li>
+
+      <li>
+         17 <img alt="ragged"  src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c0.51.200.200a/p200x200/47032337_2127185047348367_966296160459292672_n.jpg?_nc_cat=109&_nc_eui2=AeGqnNjYNm9v-3i9me7UBAUBo54ivVkH7bO9eMf_ykee74btLD6gopPCIrWmscFLFfeeFtcvUMR7LtklOffN7UMU_-X8MiqVYb5QAJrns3J3Gw&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=e89b9931b6804e3b694a67b1d16fcb11&oe=5C8C41D0">
+          <p>Get unfinished jeans <br>
+                  order now!!!black colors also 
+                  available</p>
+                  <b>Price:</b>1200ksh
+      </li>
+      <li>
+         18 <img alt="jeans" src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c0.51.200.200a/p200x200/47384355_2127180464015492_6759361861918916608_n.jpg?_nc_cat=110&_nc_eui2=AeFFiFR9o3XMjdOAtAhMPUr5cmj-68hrxsgBETn4JA8hW5db_6ry4BAzwQn5HczjCi8tRSyNxzdjAi7rcW2WUpZ8-rjz5J5liBw3q7F-LOrIWA&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=fe4ba731207a3db96396e751b21e7120&oe=5C8D346C">
+          <p>Get blue Jeans <br>
+                  order now!!!black colors also 
+                  available</p>
+                  <b>Price:</b>1200ksh
+      </li>
+
+      <li>
+         19 <img alt="" src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-9/46523915_2114609931939212_6554185548997591040_o.jpg?_nc_cat=104&_nc_eui2=AeEawiPhXP15mzwHHr053ynLm-jiclTOSlioQ3ydG0DGj0drdWzcirYQUXvAX3mI3DtNa0Jup0G55vugRUuM5iRysJkEmYmAyMsZQd7sIneZMg&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=3b50ac67efb9615a6be7cbdbdfa02056&oe=5CCFF5CC">
+          <p>Get all you need at affordable price!!
+          FOR more info. call,whatsapp or text:0792865541
+          </p>
+      </li>
+
+      <li>
+        20  <img alt="" src="">
+          <p> All you need is available</p>
+      </li>
+      <li>
+          21<img  alt="Constant consecutuir" src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c0.19.200.200a/p200x200/41580061_2005314189535454_7431242412283920384_n.jpg?_nc_cat=103&_nc_eui2=AeFwIaAqlyoYeWg6M4XouqxRl56dez3X9vDkIS9KYiTS-_zrQO2rL7-qxrUS89G1K-5Oy_WxPg_N5HUkP-hHyU4PAEFH4eGYrcm5R6bziyb8eQ&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=1f1a9ca3248d0e8dcf2015fcf9cf8ddf&oe=5C92A4B5"><!--no alt tag-->
+          <p>Custom Jezzy-shirt 
+          all teams available!!
+               <b>Price:</b> 1200ksh
+                </p>
+      </li>
+      <li>
+         22 <img alt="Search code" src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/p200x200/42449895_2023403521059854_987421730198781952_n.jpg?_nc_cat=107&_nc_eui2=AeEII6MmBk8OWpqFy5uk8Kg_fOH-AQCAX7CQCEpL5YqiJC7fke_1Fr0y2U4GDBl6SpBxkZG4MFByhQiR9Tn7ov6EdVq7DjTLhuUcy-HRSgPz7Q&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=97a1cfd6565901561340eaaf3f16380c&oe=5CC77B80">
+              <p>Get maroon khaki <br>
+                  order now!!!all colors available</p>
+                  <b>Price:</b>1000ksh
+
+              </li>
+
+      <li>
+          23 <img alt="jdesigns" src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c0.51.200.200a/p200x200/47110658_2127180260682179_4978534190384414720_n.jpg?_nc_cat=103&_nc_eui2=AeEgnnpM2D1PB07mYb5i1Hrqv9ER0kj4NeaWzkIiKvJdVfNAwuQg-2k6l1E8AlLT_ReEDzBCTp5zW0_ffWGEmYZ7FBIamb28wePGzMeFwb5aXg&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=a788e1b07d17f4cdb3ae0441e553aa32&oe=5CC5A80A"><!--no alt tag, no text-->
+         <p>Get blue design Jeans <br>
+                  order now!!!black colors also 
+                  available</p>
+                  <b>Price:</b>1200ksh
+      </li>
+    <li>
+        24 <img alt="Budget again" src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c0.22.200.200a/p200x200/47442154_2134146803318858_6057219882519363584_n.jpg?_nc_cat=110&_nc_eui2=AeE7iCND8PLYuvUhF15sHv5DiVmz0EtrsPIhDAtCWZIB4PUibGCmZzD3MYbUt7x3wKndj8wy5bvXE8rnSlxndkQgNZ7UiQaxEz9v58dSPCzW5Q&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=b7fe38f9f30cc14251e43bfb173b985f&oe=5CD768E8">
+       <p>Any design mug</p>
+         <b>Price:</b>500ksh
+    </li>
+    <li>
+        25<img alt="zara" src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c34.0.200.200a/p200x200/46368171_2105535179513354_910191973334253568_n.jpg?_nc_cat=102&_nc_eui2=AeEqKdx9KP1saG_kRfuFXnWoTyNTUmrujl_1o3nVPVQo-MCgoV5U3144erlHZoPX4DB3UKdeBdYRsNdLr5cyHlLN8SVEBU-uVXWKXIDkuwljgQ&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=4ae97c08cd3a192f5f46452d38a884a6&oe=5C8DF561"><!--no alt-->
+       <p>Get Zara khaki <br>
+                  order now!!!all colors available</p>
+                  <b>Price:</b>1000ksh each
+                 
+    </li>
+    <li>
+       26 <img alt="Tne cream"  src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t1.0-0/c33.0.200.200a/p200x200/48392104_2154181537982051_4059044437488041984_n.jpg?_nc_cat=111&_nc_eui2=AeG-odxBpvk23aAC4KYXtO8hJJf7jzXBevTrRxh6m679d0FZCh_3oiUxDU7Uszi5g-peFn7sSCstl9pqQLbbjQhXwFOyjdWUTx1BMJsBrnSnlQ&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=2bc793c5e73925516154de3f62bc494e&oe=5C8EBC06">
+        <p>Get cream khaki <br>
+                  order now!!!all colors available</p>
+                  <b>Price:</b>1000ksh
+    </li>
+    <li>
+        27<img alt="blue jeans"  src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t51.2885-15/39676086_285392418955020_7473456361641082880_n.jpg?_nc_cat=107&_nc_eui2=AeEJjU6l2T6ALTm1qV-sAEAs3v2DbP3YxUH7XuG6vuykjUL8EZTV61nFpo2JnkfIAIoTbyUZ28cXXraZSrFPS5OEafH71adgwN1bt0GtfOlDJw&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=4c6f0942db325b3b6f1764c43b6cb6fe&oe=5C8BD415">
+        <p>Get blue Jeans <br>
+                  order now!!!black colors also 
+                  available</p>
+                  <b>Price:</b>1000ksh
+    </li>
+    <li>
+        28<img alt="mug price"  src="https://z-p3-scontent.fmba1-1.fna.fbcdn.net/v/t51.2885-15/39968079_294700207994567_2831670194496077824_n.jpg?_nc_cat=109&_nc_eui2=AeH1LQKHjQxS5PA-IEvkb0lxQX1OAckaj_SKrxhL1BYYontRd4YUKAkCf-sIP6Pf0Ig8kRSRObvigmAwumHt88nX1dMBcdTJnPc0NsMx4yBmkg&_nc_ht=z-p3-scontent.fmba1-1.fna&oh=61b57274d0f8b04b8f13b636806513d7&oe=5CC89177">
+        <p>Any design mug</p>
+         <b>Price:</b>500ksh
+    </li>
+
+  </ul>
+
+
+
+
+    </div> <!-- /container -->
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="#">kevinkahoi@gmail.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+
+
+
+  </body>
+
+
+</html>
